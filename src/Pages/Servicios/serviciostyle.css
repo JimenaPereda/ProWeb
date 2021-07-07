@@ -1,0 +1,49 @@
+.containerService{
+    display: inline-row;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 0.5fr 1.5fr 1fr 0.50fr 1fr 1.5fr 0.3fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . . . . . ."
+      ". CARD1 CARD1 . CARD2 CARD2 . CARD3 CARD3 ."
+      ". CARD1 CARD1 . CARD2 CARD2 . CARD3 CARD3 ."
+      ". CARD1 CARD1 . CARD2 CARD2 . CARD3 CARD3 ."
+      ". . . . . . . . . .";
+}
+
+
+.card-img-top{
+    padding-left: 32px;
+    width: 220px;
+    height: 220px;
+
+}
+
+h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn.btn-primary{
+    margin-top: 53px;
+    color: white;
+    margin-left: 181px;
+    background: orange;
+    border: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 20px;
+}
+  
+  .CARD1 { grid-area: CARD1; }
+  
+  .CARD2 { grid-area: CARD2; }
+  
+  .CARD3 { grid-area: CARD3; }
+
+  
+  

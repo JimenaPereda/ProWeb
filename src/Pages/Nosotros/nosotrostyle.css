@@ -1,0 +1,33 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 0.6fr 1.4fr 1fr 0.1fr 0.7fr 3.3fr 0.5fr;
+    grid-template-rows: 1fr 0.8fr 1.5fr 0.2fr 0.5fr 2fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .VIDEO { grid-area: 2 / 5 / 6 / 7; }
+  
+  .TEXTO { 
+      position: absolute;
+    PADDING-LEFT: 183PX;
+    position: absolute;
+    grid-area: 6 / 2 / 7 / 7;
+    MARGIN-TOP: 295PX;
+    margin-bottom: 40px;
+}
+  
+  .TITULO {
+    MARGIN-TOP: 100PX;
+    PADDING-LEFT: 278PX;
+      position: absolute;
+       grid-area: 3 / 2 / 4 / 6; }
+
+.provideo{
+    margin-top: 6%;
+    margin-left: 33px;
+    grid-area: 2 / 5 / 6 / 7;
+    width: 430px;
+    height: 300px;
+}

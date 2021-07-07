@@ -1,0 +1,9 @@
+.Nav{
+    display: flex;
+    background-color: black;
+}
+
+.NavImg{
+    width: 250px;
+    padding-left: 40px;
+}

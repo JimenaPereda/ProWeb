@@ -1,0 +1,23 @@
+.Nav.container{
+    display: inline-block
+}
+.menubar.navbar.navbar-expand.navbar-light{
+    margin-left: 500px;
+}
+
+.mr-auto.navbar-nav{
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.round-button.nav-link{
+    font-family: 'Encode Sans SC', sans-serif;
+    margin: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.round-button.nav-link:hover{
+    color: orange;
+}
