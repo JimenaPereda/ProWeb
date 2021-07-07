@@ -32,8 +32,54 @@
 @media only screen and (max-width: 320px ){
     .LogoImg{
         
-    width: 250px;
-    height: 250px;
-    margin: 50px 50px 50px 61px;
+    margin: 1px 1px 1px 1px;
+    width: 312px; }
+
+    .menubar.navbar.navbar-expand.navbar-light {
+        margin-left: -5px;
     }
+    .NavImg {
+        width: 150px;
+        padding-left: 8%;
+        height: 73px;
+        margin-top: 6%;
+    }
+    .round-button.nav-link {
+        /* margin-top: 12%; */
+        font-family: 'Encode Sans SC', sans-serif;
+        margin: 37px;
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        display: table-header-group;
+    }
+    .mr-auto.navbar-nav {
+        margin-top: 20px;
+        font-size: 22px;
+        margin-left: 51%;
+    }
+    .TITULO {
+        MARGIN-TOP: -16PX;
+        PADDING-LEFT: 39PX;
+        position: absolute;
+        /* grid-area: 3 / 2 / 4 / 6; */
+    }
+    .provideo {
+        margin-top: 88%;
+        margin-left: -140px;
+        grid-area: 2 / 5 / 6 / 7;
+        width: 278px;
+        height: 220px;
+    }
+
+    .TEXTO {
+        position: absolute;
+        PADDING-LEFT: 23PX;
+        position: absolute;
+        grid-area: 6 / 2 / 7 / 7;
+        MARGIN-TOP: 374PX;
+        margin-bottom: 40px;
+    }
+        
 };
+

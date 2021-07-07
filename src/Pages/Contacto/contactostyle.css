@@ -57,3 +57,107 @@
   }
     
  
+@media only screen and (max-width: 320px ){
+  .LogoImg{
+        
+    margin: 1px 1px 1px 1px;
+    width: 312px; }
+
+    .menubar.navbar.navbar-expand.navbar-light {
+        margin-left: -5px;
+    }
+    .NavImg {
+        width: 150px;
+        padding-left: 8%;
+        height: 73px;
+        margin-top: 6%;
+    }
+    .round-button.nav-link {
+        /* margin-top: 12%; */
+        font-family: 'Encode Sans SC', sans-serif;
+        margin: 37px;
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+        display: table-header-group;
+    }
+    .mr-auto.navbar-nav {
+        margin-top: 20px;
+        font-size: 22px;
+        margin-left: 51%;
+    }
+    .TITULO {
+        MARGIN-TOP: -16PX;
+        PADDING-LEFT: 39PX;
+        position: absolute;
+        /* grid-area: 3 / 2 / 4 / 6; */
+    }
+    .containerService{
+display: table-row;
+    }
+    .CARD1 {
+      margin-left: 8%;
+      grid-area: CARD1;
+      margin-top: 10%;
+  }
+  .CARD2 {
+    margin-left: 8%;
+    grid-area: CARD1;
+    margin-top: 10%;
+}
+.CARD3 {
+  margin-left: 8%;
+  grid-area: CARD1;
+  margin-top: 10%;
+}
+.card-img-top {
+  padding-left: 39px;
+  width: 200px;
+  height: 150px;
+}
+h2 {
+  margin-left: 22%;
+  margin-top: 5px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.Card.Text{
+  text-align: left;
+  font-size: 16px;
+  padding-right: -24%;
+  margin-left: 21%;
+  margin-right: -115%;
+}
+.CARD3TIT{
+  margin-left: 9%;
+}
+.Clooosebtn {
+  margin-left: 248PX;
+}
+iframe{
+  
+    WIDTH: 200PX;
+    HEIGHT: 200PX;
+    MARGIN-LEFT: 51%;
+}
+.CONTACTFORM {
+  display: none;
+}
+
+
+.container {
+  display: flex
+}
+.MAP {
+  display: table-column;
+  margin-left: -19%;
+  margin-top: 7%;
+}
+.CONTACTEXT {
+  display: revert;
+  margin-left: -34%;
+  margin-top: 72%;
+}
+
+}

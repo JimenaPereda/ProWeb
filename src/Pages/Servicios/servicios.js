@@ -1,6 +1,6 @@
 import React  from 'react';
 import { useHistory } from 'react-router-dom';
-import { Card, Button } from 'react-bootstrap';
+import { Card,} from 'react-bootstrap';
 import './serviciostyle.css';
 import nominaImg from '../../Components/Images/flujo.png';
 import cashImg from '../../Components/Images/loan.png';
@@ -57,7 +57,7 @@ function Servicios() {
 				<Card style={{ width: '18rem' }}>
 					<Card.Img variant="top" src={optiImg} />
 					<Card.Body>
-						<Card.Title>
+						<Card.Title class="CARD3TIT">
 							<h2>
 								OPTIMAXX by Allianz<br></br>Portafolios de ahorro e inversión{' '}
 							</h2>
