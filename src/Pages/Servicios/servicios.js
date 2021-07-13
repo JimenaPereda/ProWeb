@@ -57,8 +57,8 @@ function Servicios() {
 				<Card style={{ width: '18rem' }}>
 					<Card.Img variant="top" src={optiImg} />
 					<Card.Body>
-						<Card.Title class="CARD3TIT">
-							<h2>
+						<Card.Title >
+							<h2 class="CARD3TIT">
 								OPTIMAXX by Allianz<br></br>Portafolios de ahorro e inversión{' '}
 							</h2>
 						</Card.Title>
